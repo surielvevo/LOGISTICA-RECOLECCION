@@ -1,0 +1,10 @@
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f0f0f0;color:#333}
+#app{display:flex;height:100vh;flex-wrap:wrap}
+#map{flex:1 1 60%;min-height:400px}
+#panel{flex:1 1 40%;padding:1rem;background:white;overflow-y:auto}
+#panel h1{margin-top:0}
+#panel label{display:block;margin:0.5rem 0}
+#panel button{margin-top:0.5rem;padding:0.4rem 1rem}
+#tabla{width:100%;border-collapse:collapse;margin-top:1rem}
+#tabla th,#tabla td{border:1px solid #ccc;padding:4px;font-size:0.9rem;text-align:left}
+@media(max-width:768px){#app{flex-direction:column}#map{order:1;height:50vh}#panel{order:2}}
